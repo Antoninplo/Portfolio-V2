@@ -37,7 +37,7 @@ const userData = {
     title:
       "Développeur Fullstack web et mobile sur Javascript et React",
     description: [
-      `Passionné par la tech mais aussi par la création en générale, j'ai effectué ma reconversion professionnelle en commençant par un bootcamp de code à La Capsule où j'ai pu apprendre les bases de la programmation sur Javascript.`,
+      `Passionné par la tech mais aussi par la création en général, j'ai effectué ma reconversion professionnelle en commençant par un bootcamp de code à La Capsule où j'ai pu apprendre les bases de la programmation sur Javascript.`,
       `Grâce à ce cursus, j'ai eu l'occasion de mettre en pratique mes connaissances fraichement acquises lors de la création d'un MVP. Nom de code Déj'Friend. Il s'agit d'un application mobile type réseaux sociaux développée sur React Native.`,
       `À l'heure actuelle, Déj'Friend est encore en cours de développement mais nous comptons bien finir par la mettre en ligne. Pour l'heure, il me faut trouver un stage, un CDI ou même des missions en freelance.`,
     ],
