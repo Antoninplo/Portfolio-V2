@@ -36,7 +36,7 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 pb-40">
           {/* Single card */}
           <a
-            href="https://tailwindmasterkit.com"
+            href="https://morning-news-front-sigma.vercel.app/"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
@@ -55,7 +55,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://placeholdertech.in"
+            href="https://mymoviz-front-eight.vercel.app/"
             className="w-full block col-span-3  sm:col-span-2  object-cover"
           >
             <div className="relative overflow-hidden">
@@ -75,7 +75,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://manuarora.in"
+            href=""
             className="w-full block col-span-3 sm:col-span-1  object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
