@@ -144,7 +144,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="/GitHub.png"
+                src="/github.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img

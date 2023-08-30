@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "Antoninplo",
   name: "Antonin Ploquin",
-  designation: "Full-Stack Developer",
+  designation: "Fullstack Developer JS/React",
   avatarUrl: "/avatar.png",
   email: "antoninploquin@gmail.com",
   phone: "+33 6 37 57 73 22",
@@ -19,7 +19,7 @@ const userData = {
     },
     {
       title: "Locapic",
-      link: "https://manuarora.in",
+      link: "",
       imgUrl: "/Locapic.gif",
     },
     {
@@ -47,7 +47,7 @@ const userData = {
   experience: [
     {
       title: "Frontend developper",
-      company: "Déj'Friend",
+      company: "Déj'Friend (MVP)",
       year: "2023",
       companyLink: "",
       desc: "Intégration de la maquette - Création d'écrans à choix multiples - Branchement avec le backend - Optimisation de l'UX",
@@ -57,7 +57,7 @@ const userData = {
       company: "La Capsule",
       year: "2023",
       companyLink: "https://www.lacapsule.academy/",
-      desc: "Apprentissage intensif des rudiments de la programmation web et mobile",
+      desc: "Apprentissage intensif des rudiments de la programmation web et mobile sur Javascript",
     },
     {
       title: "Journaliste",
@@ -71,7 +71,7 @@ const userData = {
       company: "Focus Home Entertainement",
       year: "2021",
       companyLink: "https://www.focus-entmt.com/fr",
-      desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
+      desc: "Accompagnement des studios tiers dans leur développement jusqu'à la sortie de leurs jeux vidéo.",
     },
     {
       title: "Diplome Chef de projet",
