@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "Antoninplo",
   name: "Antonin Ploquin",
-  designation: "Fullstack Developer JS/React",
+  designation: "Fullstack Développeur JS/React",
   avatarUrl: "/avatar.png",
   email: "antoninploquin@gmail.com",
   phone: "+33 6 37 57 73 22",
@@ -74,7 +74,7 @@ const userData = {
       desc: "Accompagnement des studios tiers dans leur développement jusqu'à la sortie de leurs jeux vidéo.",
     },
     {
-      title: "Diplome Chef de projet",
+      title: "Diplôme Chef de projet",
       company: "ISART Digital.",
       year: "2020",
       companyLink: "https://www.isart.fr/",
