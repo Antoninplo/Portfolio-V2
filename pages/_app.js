@@ -3,7 +3,9 @@ import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>totot</div>
+    <ThemeProvider defaultTheme="light" attribute="class">
+      <Component {...pageProps} />
+    </ThemeProvider>
   );
 }
 
