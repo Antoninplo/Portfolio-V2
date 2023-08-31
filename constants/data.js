@@ -11,6 +11,7 @@ const userData = {
       title: "Mymoviz",
       link: "https://mymoviz-front-eight.vercel.app/",
       imgUrl: "/Mymoviz.png",
+      desc: "Web app faite sur React et dynamisée par une API des derniers films sortis. Vous pourrez établir une wishlist et évaluer chacun des films présentés"
     },
     {
       title: "Morning News",
