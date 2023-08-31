@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import userData from "@constants/data";
 
 export default function Projects() {
@@ -27,9 +27,23 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, imgUrl, number, desc }) => {
+  const [showOverlay, setShowOverlay] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowOverlay(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowOverlay(false);
+  };
   return (
-    <a href={link} className="w-full block shadow-2xl">
+    <a
+      href={link}
+      className="w-full block shadow-2xl"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
       <div className="relative overflow-hidden">
         <div className="h-full w-full object-cover">
           <img
@@ -44,6 +58,11 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
         <h1 className="absolute bottom-10 left-10 text-red-500 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
         </h1>
+        {showOverlay && (
+          <div className="relative inset-0 bg-black bg-opacity-70 flex items-center justify-center">
+            <p className="text-gray-50 text-center">{desc}</p>
+          </div>
+        )}
       </div>
     </a>
   );

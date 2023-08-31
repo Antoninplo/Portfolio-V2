@@ -11,27 +11,32 @@ const userData = {
       title: "Mymoviz",
       link: "https://mymoviz-front-eight.vercel.app/",
       imgUrl: "/Mymoviz.png",
-      desc: "Web app faite sur React et dynamisée par une API des derniers films sortis. Vous pourrez établir une wishlist et évaluer chacun des films présentés"
+      desc: "Web app faite sur React et dynamisée par une API des derniers films sortis. Vous pourrez établir une wishlist et évaluer chacun des films présentés",
     },
     {
       title: "Morning News",
       link: "https://morning-news-front-sigma.vercel.app/",
       imgUrl: "/Morning News.png",
+      desc: "Web app faite sur React avec des briques techniques (navigation, Redux, authentification). Créez un compte afin de pouvoir marquer et masquer les articles que vous voulez. Vous resterez logués meme en rafraichissant votre page grâce au store persistant.",
     },
     {
       title: "Locapic",
       link: "",
       imgUrl: "/Locapic.gif",
+      desc: "Mobile app réalisée sur React Native utilisant votre localisation pour customiser une carte intéractive. Vous pourrez y ajouter des points d'intérets que vous pourrez nommer et/ou supprimer à votre convenance ",
     },
     {
       title: "FaceUp",
       link: "",
       imgUrl: "/FaceUp.gif",
+      desc: "Mobile app construite sur React Native permettant de prendre des photos et de les stocker dans une galerie d'images.",
     },
     {
       title: "Déj'Friend",
       link: "",
       imgUrl: "/Accueil _ Restos.png",
+      desc: "Mobile app type réseaux sociaux crée de toutes pièces sur React Native. Il s'agit du MVP de ma fin de formation à la Capsule. Ce projet n'est pas encore déployé car nous travaillons encore dessus.",
+
     },
   ],
   about: {
