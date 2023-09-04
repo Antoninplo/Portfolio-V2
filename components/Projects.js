@@ -38,11 +38,13 @@ const ProjectCard = ({ title, link, imgUrl, number, desc }) => {
     setShowOverlay(false);
   };
   return (
+    <div className="relative group">
     <a
       href={link}
-      className="w-full block shadow-2xl"
+      className="w-full block shadow-xl"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      target="_blank" 
     >
       <div className="relative overflow-hidden">
         <div className="h-full w-full object-cover">
@@ -65,5 +67,6 @@ const ProjectCard = ({ title, link, imgUrl, number, desc }) => {
         )}
       </div>
     </a>
+    </div>
   );
 };
