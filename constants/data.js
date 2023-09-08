@@ -21,19 +21,16 @@ const userData = {
     },
     {
       title: "Locapic",
-      link: "",
       imgUrl: "/Locapic.gif",
       desc: "Mobile app réalisée sur React Native utilisant votre localisation pour customiser une carte intéractive. Vous pourrez y ajouter des points d'intérets que vous pourrez nommer et/ou supprimer à votre convenance ",
     },
     {
       title: "FaceUp",
-      link: "",
       imgUrl: "/FaceUp.gif",
       desc: "Mobile app construite sur React Native permettant de prendre des photos et de les stocker dans une galerie d'images.",
     },
     {
       title: "Déj'Friend",
-      link: "",
       imgUrl: "/Accueil _ Restos.png",
       desc: "Mobile app type réseaux sociaux crée de toutes pièces sur React Native. Il s'agit du MVP de ma fin de formation à la Capsule. Ce projet n'est pas encore déployé car nous travaillons encore dessus.",
 
@@ -48,7 +45,7 @@ const userData = {
       `À l'heure actuelle, Déj'Friend est encore en cours de développement mais nous comptons bien finir par la mettre en ligne. Pour l'heure, il me faut trouver un stage, un CDI ou même des missions en freelance.`,
     ],
     currentProject: "Déj'Friend",
-    currentProjectUrl: " ",
+    //currentProjectUrl: " ",
   },
   experience: [
     {
